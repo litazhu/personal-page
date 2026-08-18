@@ -207,6 +207,37 @@ h2 {
   overflow: hidden;
 }
 
+.gallery-image {
+  grid-template-rows: 1fr auto;
+  aspect-ratio: 3 / 4;
+  padding: 12px;
+  gap: 10px;
+}
+
+.gallery-image a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.gallery-image figcaption {
+  color: #526078;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.35;
+}
+
 .gallery-pdf {
   grid-template-rows: 1fr auto;
   aspect-ratio: 3 / 4;
