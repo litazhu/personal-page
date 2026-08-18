@@ -1,3 +1,3 @@
 window.addEventListener('load', function () {
-  alert('Welcome!');
+  alert('hi! wellcome to my website');
 });
